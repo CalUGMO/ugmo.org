@@ -24,6 +24,12 @@ url: "http://www.ugmo.org" # the base hostname & protocol for your site, e.g. ht
 ugmo_blue: "#041E42"
 ugmo_gold: "#FFC72C"
 
+# Collections
+collections:
+  eighteen:
+    captains: false
+    output: false
+
 # Build settings
 markdown: kramdown
 theme: minima

@@ -4,5 +4,14 @@ title: Team
 ---
 <div id="team_photo" class="parallax"></div>
 <div id="team_roster">
-    <p> joshua yuan </p>
+    <h1> 2017 - 2018 Roster </h1>
+    <ul>
+
+        {% for person in site.eighteen %}
+        <li>
+        {{ person.player_name }} is #{{ person.player_number }}
+        </li>
+        {% endfor %}
+    </ul>
+
 </div>

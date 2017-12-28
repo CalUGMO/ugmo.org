@@ -82,6 +82,18 @@ a {
     background-position: center;
     opacity: 1;
 }
+#thugmo-banner_1 {
+    background-image: url("{{ site.baseurl }}/assets/images/thugmo.jpg");
+    min-height: 90vh;
+    background-position: center 0;
+    opacity: 1;
+}
+#media-banner_1 {
+    background-image: url("{{ site.baseurl }}/assets/images/jesuscamera.jpg");
+    min-height: 90vh;
+    background-position: center 0;
+    opacity: 1;
+}
 .parallax {
     width: 100%;
 
